@@ -11,20 +11,14 @@
     <meta property="og:type" content="website">
     <title>Niranya Developers LLP | Building Excellence. Delivering Trust.</title>
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- ===== PRELOADER ===== -->
     <div id="preloader">
         <div class="loader">
             <div class="loader-ring"></div>
@@ -32,646 +26,572 @@
         </div>
     </div>
 
-        <!-- ===== NAVIGATION ===== -->
-        <nav id="navbar" class="navbar">
-            <div class="nav-container">
-                <a href="#hero" class="nav-logo">
-                    <span class="logo-n">N</span>IRANYA
-                </a>
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-n">N</span>IRANYA
+            </a>
 
-                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                    <span></span><span></span><span></span><span></span>
-                </button>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
 
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="#hero" class="nav-link active">Home</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#leadership" class="nav-link">Leadership</a></li>
-                    <li><a href="#services" class="nav-link">Services</a></li>
-                    <li><a href="#projects" class="nav-link">Projects</a></li>
-                    <li><a href="#why-us" class="nav-link">Why Us</a></li>
-                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-moon" id="themeIcon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-content">
+            <div class="hero-badge animate-fade-in">
+                <span>Building Excellence. Delivering Trust.</span>
             </div>
-        </nav>
 
-        <!-- ===== HERO SECTION ===== -->
-        <section id="hero" class="hero-section">
-            <div class="hero-overlay"></div>
-            <div class="hero-particles" id="heroParticles"></div>
-            <div class="hero-content">
-                <div class="hero-badge animate-fade-in">
-                    <span>Building Excellence. Delivering Trust.</span>
-                </div>
-                <h1 class="hero-title animate-fade-in-up">
-                    <span class="hero-title-main">NIRANYA</span>
-                    <span class="hero-title-sub">DEVELOPERS <span class="gold">LLP</span></span>
-                </h1>
-				<p class="hero-tagline animate-fade-in-up delay-1">
-                    End-to-End Turnkey Execution&nbsp;|&nbsp;Interior&nbsp;|&nbsp;Civil&nbsp;|&nbsp;MEP Works
-                </p>
-                <p class="hero-description animate-fade-in-up delay-2">
-                    Premium execution partner for high-value commercial &amp; hospitality projects across Bangalore
-                </p>
-                <div class="hero-cta animate-fade-in-up delay-3">
-                    <a href="#projects" class="btn btn-gold">View Our Projects</a>
-                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
-                </div>
-                <div class="hero-stats animate-fade-in-up delay-4">
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="10">0</span><span class="stat-plus">+</span>
-                        <span class="stat-label">Years Experience</span>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="1200000">0</span><span class="stat-plus">+</span>
-                        <span class="stat-label">Sq.Ft. Executed</span>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="100">0</span><span class="stat-plus">+</span>
-                        <span class="stat-label">Projects Delivered</span>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-count="6">0</span><span class="stat-plus">+</span>
-                        <span class="stat-label">Sectors Served</span>
-                    </div>
-                </div>
+            <h1 class="hero-title animate-fade-in-up">
+                <span class="hero-title-main">NIRANYA</span>
+                <span class="hero-title-sub">DEVELOPERS <span class="gold">LLP</span></span>
+            </h1>
+
+            <p class="hero-tagline animate-fade-in-up delay-1">
+                End-to-End Turnkey Execution &nbsp;|&nbsp; Interior &nbsp;|&nbsp; Civil &nbsp;|&nbsp; MEP Works
+            </p>
+
+            <p class="hero-description animate-fade-in-up delay-2">
+                Premium execution partner for high-value commercial &amp; hospitality projects across Bangalore.
+            </p>
+
+            <div class="hero-cta animate-fade-in-up delay-3">
+                <a href="#projects" class="btn btn-gold">View Our Projects</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
             </div>
-            <div class="scroll-indicator">
-                <span>Scroll Down</span>
-                <div class="scroll-arrow"></div>
+
+            <div class="hero-stats animate-fade-in-up delay-4">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="10">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="1200000">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Sq.Ft. Executed</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="100">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="6">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Sectors Served</span>
+                </div>
             </div>
         </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
     </section>
-	<!-- ===== ABOUT SECTION ===== -->
-        <section id="about" class="section about-section">
-            <div class="container">
-                <div class="section-header" data-animate="fade-up">
-                    <span class="section-tag">Who We Are</span>
-                    <h2 class="section-title">Company <span class="gold">Overview</span></h2>
-                    <div class="section-line"></div>
-                </div>
-                <div class="about-grid">
-                    <div class="about-content" data-animate="fade-right">
-                        <h3 class="about-subtitle">About Niranya Developers LLP</h3>
-                        <p class="about-text">
-                            A new-age turnkey execution firm built for high-value commercial, hospitality &amp; infrastructure projects.
-                            Founded by professionals with 10+ years of proven leadership in civil, interiors &amp; MEP verticals.
-                        </p>
-                        <ul class="about-highlights">
-                            <li><i class="fas fa-check-circle"></i> Registered LLP headquartered in Bangalore with execution capability across Karnataka</li>
-                            <li><i class="fas fa-check-circle"></i> Over 12,00,000+ sq.ft. of construction &amp; interior works executed</li>
-                            <li><i class="fas fa-check-circle"></i> Track record across premium residential, commercial, hospitality &amp; airport-grade projects</li>
-                            <li><i class="fas fa-check-circle"></i> Focused on compliance-driven, fast-track execution with zero-defect handover standards</li>
-                        </ul>
-                    </div>
+
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Who We Are</span>
+                <h2 class="section-title">Company <span class="gold">Overview</span></h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-content" data-animate="fade-right">
+                    <h3 class="about-subtitle">About Niranya Developers LLP</h3>
+                    <p class="about-text">
+                        A new-age turnkey execution firm built for high-value commercial, hospitality &amp; infrastructure projects. Founded by professionals with 10+ years of proven leadership in civil, interiors &amp; MEP verticals.
+                    </p>
+                    <ul class="about-highlights">
+                        <li><i class="fas fa-check-circle"></i> Registered LLP headquartered in Bangalore with execution capability across Karnataka</li>
+                        <li><i class="fas fa-check-circle"></i> Over 12,00,000+ sq.ft. of construction &amp; interior works executed</li>
+                        <li><i class="fas fa-check-circle"></i> Track record across premium residential, commercial, hospitality &amp; airport-grade projects</li>
+                        <li><i class="fas fa-check-circle"></i> Focused on compliance-driven, fast-track execution with zero-defect handover standards</li>
+                    </ul>
                     <div class="about-mission-vision">
                         <div class="mv-card">
                             <div class="mv-icon"><i class="fas fa-bullseye"></i></div>
                             <h4>Mission</h4>
-                            <p>With a focus on long- term relationships and customer- first solutions, Niranya Developers continues to build landmarks defined by integrity, excellence, and enduring reliability.
-Quality With out Compromise
-Customer- Centric 
-Planning
-Prime Location
-Focus
-Trust-First
-Approach</p>
+                            <p>To deliver turnkey Interior, Civil &amp; MEP solutions for high-value commercial and infrastructure projects with uncompromising quality, transparent execution, and timely delivery.</p>
                         </div>
                         <div class="mv-card">
                             <div class="mv-icon"><i class="fas fa-eye"></i></div>
                             <h4>Vision</h4>
-                            <p>NIRANYA DEVELOPERS is a forward- thinking real estate and land development firm committed to creating spaces that stand for trust , transparency, and timeless value . Driven by a vision to deliver quality without compromise , we blend innovative design, meticulous planning, and ethical practices to craft homes and developments that enrich communities.</p>
+                            <p>To be Bangalore's most trusted execution partner for premium commercial, hospitality &amp; airport infrastructure projects — recognized for technical excellence and integrity.</p>
                         </div>
                     </div>
                 </div>
-            <div class="about-info-card" data-animate="fade-left">
-    <h3 class="card-header-title"><i class="fas fa-building"></i> Company at a Glance</h3>
-    <div class="info-row">
-        <span class="info-key">Entity</span>
-        <span class="info-value">Niranya Developers LLP</span>
-    </div>
-    <div class="info-row">
-        <span class="info-key">Type</span>
-        <span class="info-value">Limited Liability Partnership</span>
-    </div>
-    <div class="info-row">
-        <span class="info-key">Headquarters</span>
-        <span class="info-value">Bangalore, Karnataka</span>
-    </div>
-    <div class="info-row">
-        <span class="info-key">Core Services</span>
-        <span class="info-value">Interior | Civil | MEP Works</span>
-    </div>
-    <div class="info-row">
-        <span class="info-key">Total Executed</span>
-        <span class="info-value">>12,00,000+ Sq.Ft.</span>
-    </div>
-    <div class="info-row">
-        <span class="info-key">Leadership Exp.</span>
-        <span class="info-value">10+ Years across reputed firms</span>
-    </div>
-    <div class="info-row">
-        <span class="info-key">Sectors Served</span>
-        <span class="info-value">Commercial, Hospitality, Residential, Institutional</span>
-    </div>
-    <div class="info-row">
-        <span class="info-key">Registration</span>
-        <span class="info-value">GST Registered | MSME</span>
-    </div>
-</div>
-<div class="principles-bar">
-                <span><i class="fas fa-gem"></i> Quality</span>
-                <span><i class="fas fa-users"></i> Customer-Centric</span>
-                <span><i class="fas fa-shield-alt"></i> Trust-First</span>
-                <span><i class="fas fa-clock"></i> On-Time</span>
-                <span><i class="fas fa-hard-hat"></i> Safety</span>
+                <div class="about-info-card" data-animate="fade-left">
+                    <h3 class="card-header-title"><i class="fas fa-building"></i> Company at a Glance</h3>
+                    <div class="info-row">
+                        <span class="info-key">Entity</span>
+                        <span class="info-value">Niranya Developers LLP</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">Type</span>
+                        <span class="info-value">Limited Liability Partnership</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">Headquarters</span>
+                        <span class="info-value">Bangalore, Karnataka</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">Core Services</span>
+                        <span class="info-value">Interior | Civil | MEP Works</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">Total Executed</span>
+                        <span class="info-value">12,00,000+ Sq.Ft.</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">Leadership Exp.</span>
+                        <span class="info-value">10+ Years across reputed firms</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">Sectors Served</span>
+                        <span class="info-value">Commercial, Hospitality, Residential, Institutional, Airport</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">Registration</span>
+                        <span class="info-value">GST Registered | MSME</span>
+                    </div>
+                    <div class="principles-bar">
+                        <span><i class="fas fa-gem"></i> Quality</span>
+                        <span><i class="fas fa-users"></i> Customer-Centric</span>
+                        <span><i class="fas fa-shield-alt"></i> Trust-First</span>
+                        <span><i class="fas fa-clock"></i> On-Time</span>
+                        <span><i class="fas fa-hard-hat"></i> Safety</span>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ===== LEADERSHIP SECTION ===== -->
-<section id="leadership" class="section leadership-section">
-    <div class="container">
-        <div class="section-header" data-animate="fade-up">
-            <span class="section-tag">Our Team</span>
-            <h2 class="section-title">Leadership &amp; <span class="gold">Experience</span></h2>
-            <div class="section-line"></div>
-        </div>
-        
-        <div class="leader-feature" data-animate="fade-up">
-            <div class="leader-icon-large"><i class="fas fa-user-tie"></i></div>
-            <div class="leader-info">
-                <h3>Karthik Reddy J</h3>
-                <span class="leader-role">Founder &amp; Managing Partner</span>
-                <ul class="leader-highlights">
-                    <li>10+ years of hands-on experience in construction, interiors &amp; MEP execution</li>
-                    <li>Executed over 12,00,000+ sq.ft. across residential, commercial &amp; institutional segments</li>
-                    <li>Deep expertise in premium interior fit-outs, civil construction &amp; MEP coordination</li>
-                    <li>End-to-end turnkey specialist - from design coordination to snag-free handover</li>
-                    <li>Strong vendor network &amp; supply chain capability for timely material procurement</li>
-                </ul>
+    <section id="leadership" class="section leadership-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Team</span>
+                <h2 class="section-title">Leadership &amp; <span class="gold">Experience</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="leader-feature" data-animate="fade-up">
+                <div class="leader-icon-large"><i class="fas fa-user-tie"></i></div>
+                <div class="leader-info">
+                    <h3>Karthik Reddy J</h3>
+                    <span class="leader-role">Founder &amp; Managing Partner</span>
+                    <ul class="leader-highlights">
+                        <li><i class="fas fa-chevron-right"></i> 10+ years of hands-on experience in construction, interiors &amp; MEP execution</li>
+                        <li><i class="fas fa-chevron-right"></i> Executed over 12,00,000+ sq.ft. across residential, commercial &amp; institutional segments</li>
+                        <li><i class="fas fa-chevron-right"></i> Deep expertise in premium interior fit-outs, civil construction &amp; MEP coordination</li>
+                        <li><i class="fas fa-chevron-right"></i> End-to-end turnkey specialist — from design coordination to snag-free handover</li>
+                        <li><i class="fas fa-chevron-right"></i> Strong vendor network &amp; supply chain capability for timely material procurement</li>
+                    </ul>
+                </div>
+            </div>
+            <h3 class="team-section-title" data-animate="fade-up">Management Team</h3>
+            <div class="team-grid">
+                <div class="team-card" data-animate="fade-up">
+                    <div class="team-dept">INTERIORS</div>
+                    <div class="team-avatar"><i class="fas fa-paint-roller"></i></div>
+                    <h4>Roshan Muthu</h4>
+                    <p>Interior design &amp; execution lead — premium finishes, joinery &amp; material selection for commercial/hospitality</p>
+                </div>
+                <div class="team-card" data-animate="fade-up" data-delay="100">
+                    <div class="team-dept">MARKETING</div>
+                    <div class="team-avatar"><i class="fas fa-chart-line"></i></div>
+                    <h4>Sai Charan</h4>
+                    <p>Business development, client engagement &amp; strategic partnerships for project acquisitions</p>
+                </div>
+                <div class="team-card" data-animate="fade-up" data-delay="200">
+                    <div class="team-dept">FINANCE</div>
+                    <div class="team-avatar"><i class="fas fa-calculator"></i></div>
+                    <h4>Shreyas Kakubal</h4>
+                    <p>Financial planning, cost control, vendor negotiations &amp; procurement management</p>
+                </div>
+                <div class="team-card" data-animate="fade-up" data-delay="300">
+                    <div class="team-dept">HUMAN RESOURCES</div>
+                    <div class="team-avatar"><i class="fas fa-people-arrows"></i></div>
+                    <h4>Nikitha S Prabhakar</h4>
+                    <p>Talent acquisition, workforce planning, site manpower deployment &amp; organizational growth</p>
+                </div>
             </div>
         </div>
+    </section>
 
-        <h3 class="team-section-title" data-animate="fade-up">Management Team</h3>
-        <div class="team-grid">
-            <div class="team-card" data-animate="fade-up">
-                <div class="team-dept">INTERIORS</div>
-				<div class="team-avatar"><i class="fas fa-paint-roller"></i></div>
-            <h4>Roshan Muthu</h4>
-            <p>Interior design &amp; execution lead - premium finishes, joinery &amp; material selection for commercial/hospitality</p>
-        </div>
-        <div class="team-card" data-animate="fade-up" data-delay="100">
-            <div class="team-dept">MARKETING</div>
-            <div class="team-avatar"><i class="fas fa-chart-line"></i></div>
-            <h4>Sai Charan</h4>
-            <p>Business development, client engagement &amp; strategic partnerships for project acquisitions</p>
-        </div>
-        <div class="team-card" data-animate="fade-up" data-delay="200">
-            <div class="team-dept">FINANCE</div>
-            <div class="team-avatar"><i class="fas fa-calculator"></i></div>
-            <h4>Shreyas Kakubal</h4>
-            <p>Financial planning, cost control, vendor negotiations &amp; procurement management</p>
-        </div>
-        <div class="team-card" data-animate="fade-up" data-delay="300">
-            <div class="team-dept">HUMAN RESOURCES</div>
-            <div class="team-avatar"><i class="fas fa-people-arrows"></i></div>
-            <h4>Nikitha S Prabhakar</h4>
-            <p>Talent acquisition, workforce planning, site manpower deployment &amp; organizational growth</p>
-        </div>
-    </div>
-</section>
-
-<!-- ===== SERVICES SECTION ===== -->
-<section id="services" class="section services-section">
-    <div class="container">
-        <div class="section-header" data-animate="fade-up">
-            <span class="section-tag">What We Do</span>
-            <h2 class="section-title">Core <span class="gold">Services</span></h2>
-            <div class="section-line"></div>
-            <p class="section-subtitle">Integrated Turnkey Capability Across Three Verticals</p>
-        </div>
-        <div class="services-grid">
-            <div class="service-card" data-animate="fade-up">
-			<div class="service-icon"><i class="fas fa-couch"></i></div>
-            <h3>Interior Works</h3>
-            <ul>
-                <li>Marble, Granite &amp; Vitrified Tile Flooring</li>
-                <li>Wall Cladding &amp; Dry Cladding Systems</li>
-                <li>Gypsum, Metal Grid &amp; Baffle Ceilings</li>
-                <li>Custom Joinery, Wooden Paneling &amp; Doors</li>
-                <li>Modular Furniture &amp; Fixture Installation</li>
-                <li>Toilet Cubicles &amp; Vanity Works</li>
-                <li>Decorative Finishes, Signage &amp; Branding</li>
-            </ul>
-        </div>
-
-        <div class="service-card featured" data-animate="fade-up" data-delay="150">
-            <div class="service-badge">Primary</div>
-            <div class="service-icon"><i class="fas fa-hard-hat"></i></div>
-            <h3>Civil Works</h3>
-            <ul>
-                <li>Structural Modifications &amp; RCC Works</li>
-                <li>Block Work, Plastering &amp; Screeding</li>
-                <li>Waterproofing &amp; Anti-Corrosion Treatments</li>
-                <li>External Facade &amp; Cladding Works</li>
-                <li>Demolition &amp; Site Preparation</li>
-                <li>Landscape, Hardscape &amp; Softscape</li>
-                <li>Retaining Walls &amp; Drainage Infrastructure</li>
-            </ul>
-        </div>
-
-        <div class="service-card" data-animate="fade-up" data-delay="300">
-            <div class="service-icon"><i class="fas fa-bolt"></i></div>
-            <h3>MEP Works</h3>
-            <ul>
-                <li>HVAC Installation &amp; Commissioning</li>
-                <li>Electrical Distribution &amp; LV Systems</li>
-                <li>Fire Detection, Alarm &amp; Sprinkler Systems</li>
-                <li>Plumbing, Drainage &amp; STP Integration</li>
-                <li>BMS Integration &amp; Building Automation</li>
-                <li>DG Set, UPS &amp; Power Backup Systems</li>
-                <li>Public Address, CCTV &amp; Access Control</li>
-            </ul>
-        </div>
-		</div>
-		</div>
-	</SECTION>
-	<!-- ===== PROJECTS SECTION ===== -->
-        <section id="projects" class="section projects-section">
-            <div class="container">
-                <div class="section-header" data-animate="fade-up">
-                    <span class="section-tag">Our Portfolio</span>
-                    <h2 class="section-title">Projects <span class="gold">Portfolio</span></h2>
-                    <div class="section-line"></div>
+    <section id="services" class="section services-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">What We Do</span>
+                <h2 class="section-title">Core <span class="gold">Services</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Integrated Turnkey Capability Across Three Verticals</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate="fade-up">
+                    <div class="service-icon"><i class="fas fa-couch"></i></div>
+                    <h3>Interior Works</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Marble, Granite &amp; Vitrified Tile Flooring</li>
+                        <li><i class="fas fa-check"></i> Wall Cladding &amp; Dry Cladding Systems</li>
+                        <li><i class="fas fa-check"></i> Gypsum, Metal Grid &amp; Baffle Ceilings</li>
+                        <li><i class="fas fa-check"></i> Custom Joinery, Wooden Paneling &amp; Doors</li>
+                        <li><i class="fas fa-check"></i> Modular Furniture &amp; Fixture Installation</li>
+                        <li><i class="fas fa-check"></i> Toilet Cubicles &amp; Vanity Works</li>
+                        <li><i class="fas fa-check"></i> Decorative Finishes, Signage &amp; Branding</li>
+                    </ul>
                 </div>
-
-                <!-- Project Filter Tabs -->
-                <div class="project-tabs" data-animate="fade-up">
-                    <button class="tab-btn active" data-filter="all">All</button>
-                    <button class="tab-btn" data-filter="completed">Completed</button>
-                    <button class="tab-btn" data-filter="ongoing">Ongoing</button>
-                    <button class="tab-btn" data-filter="negotiation">Upcoming</button>
+                <div class="service-card featured" data-animate="fade-up" data-delay="150">
+                    <div class="service-badge">Primary</div>
+                    <div class="service-icon"><i class="fas fa-hard-hat"></i></div>
+                    <h3>Civil Works</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Structural Modifications &amp; RCC Works</li>
+                        <li><i class="fas fa-check"></i> Block Work, Plastering &amp; Screeding</li>
+                        <li><i class="fas fa-check"></i> Waterproofing &amp; Anti-Corrosion Treatments</li>
+                        <li><i class="fas fa-check"></i> External Facade &amp; Cladding Works</li>
+                        <li><i class="fas fa-check"></i> Demolition &amp; Site Preparation</li>
+                        <li><i class="fas fa-check"></i> Landscape, Hardscape &amp; Softscape</li>
+                        <li><i class="fas fa-check"></i> Retaining Walls &amp; Drainage Infrastructure</li>
+                    </ul>
                 </div>
+                <div class="service-card" data-animate="fade-up" data-delay="300">
+                    <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>MEP Works</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> HVAC Installation &amp; Commissioning</li>
+                        <li><i class="fas fa-check"></i> Electrical Distribution &amp; LV Systems</li>
+                        <li><i class="fas fa-check"></i> Fire Detection, Alarm &amp; Sprinkler Systems</li>
+                        <li><i class="fas fa-check"></i> Plumbing, Drainage &amp; STP Integration</li>
+                        <li><i class="fas fa-check"></i> BMS Integration &amp; Building Automation</li>
+                        <li><i class="fas fa-check"></i> DG Set, UPS &amp; Power Backup Systems</li>
+                        <li><i class="fas fa-check"></i> Public Address, CCTV &amp; Access Control</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="projects-grid">
-                    <!-- Completed Projects -->
-                    <div class="project-card" data-category="completed" data-animate="fade-up">
-                        <div class="project-image">
-                            <img src="assets/images/kangaroo-kids.jpg" alt="Kangaroo Kids International Pre School" loading="lazy">
-                            <div class="project-overlay">
-                                <span class="project-tag">Completed 2024</span>
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Portfolio</span>
+                <h2 class="section-title">Projects <span class="gold">Portfolio</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="project-tabs" data-animate="fade-up">
+                <button class="tab-btn active" data-filter="all">All</button>
+                <button class="tab-btn" data-filter="completed">Completed</button>
+                <button class="tab-btn" data-filter="ongoing">Ongoing</button>
+                <button class="tab-btn" data-filter="negotiation">Upcoming</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="completed" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="assets/images/kangaroo-kids.jpg" alt="Kangaroo Kids International Pre School" loading="lazy">
+                        <div class="project-overlay"><span class="project-tag">Completed 2024</span></div>
+                    </div>
+                    <div class="project-info">
+                        <h4>Kangaroo Kids International Pre School</h4>
+                        <p class="project-meta">12,000 Sq.Ft. &nbsp;|&nbsp; ₹2.35 Crores</p>
+                        <p>Interiors, Civil, Electrical, Plumbing, Marble &amp; Tile Work, Play Area &amp; Landscape Garden</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="completed" data-animate="fade-up" data-delay="100">
+                    <div class="project-image">
+                        <img src="assets/images/restaurant-1.jpg" alt="Kailash Parbat Restaurant" loading="lazy">
+                        <div class="project-overlay"><span class="project-tag">Hospitality</span></div>
+                    </div>
+                    <div class="project-info">
+                        <h4>Kailash Parbat &amp; Kailash Residency</h4>
+                        <p class="project-meta">Hospitality &amp; Restaurant</p>
+                        <p>Complete restaurant interiors, kitchen MEP, hospitality finishes</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="completed" data-animate="fade-up" data-delay="200">
+                    <div class="project-image">
+                        <img src="assets/images/showroom-1.jpg" alt="Car &amp; Bike Showroom" loading="lazy">
+                        <div class="project-overlay"><span class="project-tag">Commercial</span></div>
+                    </div>
+                    <div class="project-info">
+                        <h4>Car &amp; Bike Showroom</h4>
+                        <p class="project-meta">5,500 Sq.Ft. &nbsp;|&nbsp; Complete Interior Fit-out</p>
+                        <p>Display systems, lighting, electrical &amp; premium finishes</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="completed" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="assets/images/recent-completed.jpg" alt="Residential Project" loading="lazy">
+                        <div class="project-overlay"><span class="project-tag">Residential</span></div>
+                    </div>
+                    <div class="project-info">
+                        <h4>VT Residency &amp; Luxury Apartments</h4>
+                        <p class="project-meta">42,500 + 28,500 + 12,500 Sq.Ft.</p>
+                        <p>Multi-unit residential – civil, interior &amp; MEP with STP plant integration</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ongoing" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="assets/images/luxury-3bhk.jpg" alt="Luxury 3 BHK Sadashivanagar" loading="lazy">
+                        <div class="project-overlay"><span class="project-tag ongoing-tag">Ongoing</span></div>
+                    </div>
+                    <div class="project-info">
+                        <h4>Luxury 3 BHK - Sadashivanagar</h4>
+                        <p class="project-meta">Prime Location &nbsp;|&nbsp; Bangalore</p>
+                        <p>High-end interior finishes with imported materials, complete turnkey Civil, Interior &amp; MEP</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ongoing" data-animate="fade-up" data-delay="100">
+                    <div class="project-image">
+                        <img src="assets/images/sarjapur-road.jpg" alt="1 BHK 55 Units Sarjapur" loading="lazy">
+                        <div class="project-overlay"><span class="project-tag ongoing-tag">Ongoing</span></div>
+                    </div>
+                    <div class="project-info">
+                        <h4>1 BHK - 55 Units, Sarjapur Road</h4>
+                        <p class="project-meta">Large-Scale Residential &nbsp;|&nbsp; Bangalore</p>
+                        <p>55-unit apartment complex, STP plant integration, modular execution for repetitive layouts</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="negotiation" data-animate="fade-up">
+                    <div class="project-image">
+                        <img src="assets/images/hampi-hospitality.jpg" alt="Hampi Hospitality" loading="lazy">
+                        <div class="project-overlay"><span class="project-tag upcoming-tag">Upcoming</span></div>
+                    </div>
+                    <div class="project-info">
+                        <h4>Hospitality Development - Hampi Region</h4>
+                        <p class="project-meta">Under Negotiation &nbsp;|&nbsp; Hospitality</p>
+                        <p>Premium cottages, dormitory, reception &amp; restaurant — integrated master planning with end-to-end execution</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="section why-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Edge</span>
+                <h2 class="section-title">Why Choose <span class="gold">Niranya</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Our Differentiators - Value Proposition</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card" data-animate="fade-up">
+                    <div class="why-number">01</div>
+                    <div class="why-icon"><i class="fas fa-award"></i></div>
+                    <h4>Proven Leadership</h4>
+                    <p>10+ years hands-on experience in high-value commercial, hospitality &amp; infrastructure projects</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="75">
+                    <div class="why-number">02</div>
+                    <div class="why-icon"><i class="fas fa-project-diagram"></i></div>
+                    <h4>Turnkey Capability</h4>
+                    <p>Single-window for Interior, Civil &amp; MEP — no multi-vendor coordination risk</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="225">
+                    <div class="why-number">03</div>
+                    <div class="why-icon"><i class="fas fa-gem"></i></div>
+                    <h4>Quality Obsession</h4>
+                    <p>Mock-up driven approvals, MIR-based material control, snag-free handover</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="300">
+                    <div class="why-number">04</div>
+                    <div class="why-icon"><i class="fas fa-rocket"></i></div>
+                    <h4>Speed &amp; Agility</h4>
+                    <p>Lean structure = faster decisions, rapid mobilization &amp; adaptive execution</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="375">
+                    <div class="why-number">05</div>
+                    <div class="why-icon"><i class="fas fa-rupee-sign"></i></div>
+                    <h4>Cost Efficiency</h4>
+                    <p>Strong vendor relationships, optimized resources &amp; waste reduction</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="450">
+                    <div class="why-number">06</div>
+                    <div class="why-icon"><i class="fas fa-hard-hat"></i></div>
+                    <h4>Safety-First</h4>
+                    <p>Zero LTI target, daily toolbox talks, LEED-compliant EHS protocols</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="525">
+                    <div class="why-number">07</div>
+                    <div class="why-icon"><i class="fas fa-handshake"></i></div>
+                    <h4>Post-Handover Support</h4>
+                    <p>Dedicated DLP team, 24-hour response, structured rectification timelines</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Work</span>
+                <h2 class="section-title">Project <span class="gold">Gallery</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="gallery-grid" data-animate="fade-up">
+                <div class="gallery-item">
+                    <img src="assets/images/kangaroo-kids.jpg" alt="Kangaroo Kids Project" loading="lazy">
+                    <div class="gallery-overlay"><span>Kangaroo Kids Pre School</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/restaurant-2.jpg" alt="Restaurant Project" loading="lazy">
+                    <div class="gallery-overlay"><span>Kailash Parbat Restaurant</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/showroom-1.jpg" alt="Car Showroom" loading="lazy">
+                    <div class="gallery-overlay"><span>Car &amp; Bike Showroom</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/showroom-2.jpg" alt="Showroom Interior" loading="lazy">
+                    <div class="gallery-overlay"><span>Showroom Interior Fit-out</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/gallery-1.jpg" alt="Gallery Work 1" loading="lazy">
+                    <div class="gallery-overlay"><span>Commercial Project</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/gallery-2.jpg" alt="Gallery Work 2" loading="lazy">
+                    <div class="gallery-overlay"><span>Interior Execution</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/gallery-3.jpg" alt="Gallery Work 3" loading="lazy">
+                    <div class="gallery-overlay"><span>Civil Works</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/gallery-4.jpg" alt="Gallery Work 4" loading="lazy">
+                    <div class="gallery-overlay"><span>Residential Complex</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Reach Us</span>
+                <h2 class="section-title">Get In <span class="gold">Touch</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-right">
+                    <h3>Let's Build Together</h3>
+                    <p>Whether you need turnkey execution for a commercial project, premium interior fit-out, or complete MEP solutions — we're ready to deliver.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-user"></i></div>
+                            <div>
+                                <strong>Karthik Reddy J</strong>
+                                <span>Founder &amp; Managing Partner</span>
                             </div>
                         </div>
-                        <div class="project-info">
-                            <h4>Kangaroo Kids International Pre School</h4>
-                            <p class="project-meta">12,000 Sq.Ft. &nbsp;|&nbsp; ₹2.35 Crores</p>
-                            <p>Interiors, Civil, Electrical, Plumbing, Marble &amp; Tile Work, Play Area &amp; Landscape Garden</p>
-                        </div>
-                    </div>
-					<div class="project-card" data-category="completed" data-animate="fade-up" data-delay="100">
-                        <div class="project-image">
-                            <img src="assets/images/restaurant-1.jpg" alt="Kailash Parbat Restaurant" loading="lazy">
-                            <div class="project-overlay">
-                                <span class="project-tag">Hospitality</span>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <strong>Phone</strong>
+                                <span>+91-9108221234</span>
                             </div>
                         </div>
-                        <div class="project-info">
-                            <h4>Kailash Parbat &amp; Kailash Residency</h4>
-                            <p class="project-meta">Hospet &nbsp;|&nbsp; Restaurant &amp; Hospitality</p>
-                            <p>Complete restaurant interiors, kitchen MEP, hospitality finishes</p>
-                        </div>
-                    </div>
-
-                    <div class="project-card" data-category="completed" data-animate="fade-up" data-delay="200">
-                        <div class="project-image">
-                            <img src="assets/images/showroom-1.jpg" alt="Car &amp; Bike Showroom" loading="lazy">
-                            <div class="project-overlay">
-                                <span class="project-tag">Commercial</span>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <strong>Email</strong>
+                                <span>niranyadevelopersllp@gmail.com</span>
                             </div>
                         </div>
-                        <div class="project-info">
-                            <h4>Car &amp; Bike Showroom</h4>
-                            <p class="project-meta">5,500 Sq.Ft. &nbsp;|&nbsp; Complete Interior Fit-out</p>
-                            <p>Display systems, lighting, electrical &amp; premium finishes</p>
-                        </div>
-                    </div>
-
-                    <div class="project-card" data-category="completed" data-animate="fade-up">
-                        <div class="project-image">
-                            <img src="assets/images/recent-completed.jpg" alt="Residential Project" loading="lazy">
-                            <div class="project-overlay">
-                                <span class="project-tag">Residential</span>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Bangalore, Karnataka, India</span>
                             </div>
                         </div>
-                        <div class="project-info">
-                            <h4>VT Residency &amp; Luxury Apartments</h4>
-                            <p class="project-meta">42,500 + 28,500 + 12,500 Sq.Ft.</p>
-							<p>Multi-unit residential - civil, interior &amp; MEP with STP plant integration</p>
-                </div>
-            </div>
-
-            <!-- Ongoing Projects -->
-            <div class="project-card" data-category="ongoing" data-animate="fade-up">
-                <div class="project-image">
-                    <img src="assets/images/luxury-3bhk.jpg" alt="Luxury 3 BHK Sadashivanagar" loading="lazy">
-                    <div class="project-overlay">
-                        <span class="project-tag ongoing-tag">Ongoing</span>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h4>Luxury 3 BHK - Sadashivanagar</h4>
-                    <p class="project-meta">Prime Location &nbsp;|&nbsp; Bangalore</p>
-                    <p>High-end interior finishes with imported materials, complete turnkey Civil, Interior &amp; MEP</p>
-                </div>
-            </div>
-
-            <div class="project-card" data-category="ongoing" data-animate="fade-up" data-delay="100">
-                <div class="project-image">
-                    <img src="assets/images/sarjapur-road.jpg" alt="1 BHK 55 Units Sarjapur" loading="lazy">
-                    <div class="project-overlay">
-                        <span class="project-tag ongoing-tag">Ongoing</span>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h4>1 BHK - 55 Units, Sarjapur Road</h4>
-                    <p class="project-meta">Large-Scale Residential &nbsp;|&nbsp; Bangalore</p>
-                    <p>55-unit apartment complex, STP plant integration, modular execution for repetitive layouts</p>
-                </div>
-            </div>
-
-            <!-- Under Negotiation -->
-            <div class="project-card" data-category="negotiation" data-animate="fade-up">
-                <div class="project-image">
-                    <img src="assets/images/hampi-hospitality.jpg" alt="Hampi Hospitality" loading="lazy">
-                    <div class="project-overlay">
-					<span class="project-tag upcoming-tag">Upcoming</span>
-                    </div>
-                </div>
-                <div class="project-info">
-                    <h4>Hospitality Development - Hampi Region</h4>
-                    <p class="project-meta">Under Negotiation &nbsp;|&nbsp; Hospitality</p>
-                    <p>Premium cottages, dormitory, reception &amp; restaurant - integrated master planning with end-to-end execution</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ===== WHY US SECTION ===== -->
-<section id="why-us" class="section why-section">
-    <div class="container">
-        <div class="section-header" data-animate="fade-up">
-            <span class="section-tag">Our Edge</span>
-            <h2 class="section-title">Why Choose <span class="gold">Niranya</span></h2>
-            <div class="section-line"></div>
-            <p class="section-subtitle">Our Differentiators - Value Proposition</p>
-        </div>
-
-        <div class="why-grid">
-            <div class="why-card" data-animate="fade-up">
-                <div class="why-number">01</div>
-                <div class="why-icon"><i class="fas fa-award"></i></div>
-                <h4>Proven Leadership</h4>
-                <p>10+ years hands-on experience in high-value commercial, hospitality &amp; infrastructure projects</p>
-            </div>
-
-            <div class="why-card" data-animate="fade-up" data-delay="75">
-                <div class="why-number">02</div>
-                <div class="why-icon"><i class="fas fa-project-diagram"></i></div>
-                <h4>Turnkey Capability</h4>
-                <p>Single-window for Interior, Civil &amp; MEP - no multi-vendor coordination risk</p>
-            </div>
-           
-            <div class="why-card" data-animate="fade-up" data-delay="225">
-                <div class="why-number">04</div>
-                <div class="why-icon"><i class="fas fa-gem"></i></div>
-                <h4>Quality Obsession</h4>
-                <p>Mock-up driven approvals, MIR-based material control, snag-free handover</p>
-            </div>
-
-            <div class="why-card" data-animate="fade-up" data-delay="300">
-                <div class="why-number">05</div>
-                <div class="why-icon"><i class="fas fa-rocket"></i></div>
-                <h4>Speed &amp; Agility</h4>
-                <p>Lean structure = faster decisions, rapid mobilization &amp; adaptive execution</p>
-            </div>
-        </div <div class="why-card" data-animate="fade-up" data-delay="375">
-                <div class="why-number">06</div>
-                <div class="why-icon"><i class="fas fa-rupee-sign"></i></div>
-                <h4>Cost Efficiency</h4>
-                <p>Strong vendor relationships, optimized resources &amp; waste reduction</p>
-            </div>
-
-            <div class="why-card" data-animate="fade-up" data-delay="450">
-                <div class="why-number">07</div>
-                <div class="why-icon"><i class="fas fa-hard-hat"></i></div>
-                <h4>Safety-First</h4>
-                <p>Zero LTI target, daily toolbox talks, LEED-compliant EHS protocols</p>
-            </div>
-
-            <div class="why-card" data-animate="fade-up" data-delay="525">
-                <div class="why-number">08</div>
-                <div class="why-icon"><i class="fas fa-handshake"></i></div>
-                <h4>Post-Handover Support</h4>
-                <p>Dedicated DLP team, 24-hour response, structured rectification timelines</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ===== GALLERY SECTION ===== -->
-<section id="gallery" class="section gallery-section">
-    <div class="container">
-        <div class="section-header" data-animate="fade-up">
-            <span class="section-tag">Our Work</span>
-            <h2 class="section-title">Project <span class="gold">Gallery</span></h2>
-            <div class="section-line"></div>
-        </div>
-
-        <div class="gallery-grid" data-animate="fade-up">
-            <div class="gallery-item">
-                <img src="assets/images/kangaroo-kids.jpg" alt="Kangaroo Kids Project" loading="lazy">
-                <div class="gallery-overlay">
-                    <span>Kangaroo Kids Pre School</span>
-                </div>
-            </div>
-			<div class="gallery-item">
-                <img src="assets/images/restaurant-2.jpg" alt="Restaurant Project" loading="lazy">
-                <div class="gallery-overlay">
-                    <span>Kailash Parbat Restaurant</span>
-                </div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="assets/images/showroom-1.jpg" alt="Car Showroom" loading="lazy">
-                <div class="gallery-overlay">
-                    <span>Car &amp; Bike Showroom</span>
-                </div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="assets/images/showroom-2.jpg" alt="Showroom Interior" loading="lazy">
-                <div class="gallery-overlay">
-                    <span>Showroom Interior Fit-out</span>
-                </div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="assets/images/gallery-1.jpg" alt="Gallery Work 1" loading="lazy">
-                <div class="gallery-overlay">
-                    <span>Commercial Project</span>
-                </div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="assets/images/gallery-2.jpg" alt="Gallery Work 2" loading="lazy">
-                <div class="gallery-overlay">
-                    <span>Interior Execution</span>
-                </div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="assets/images/gallery-3.jpg" alt="Gallery Work 3" loading="lazy">
-                <div class="gallery-overlay">
-                    <span>Civil Works</span>
-                </div>
-            </div>
-
-            <div class="gallery-item">
-                <img src="assets/images/gallery-4.jpg" alt="Gallery Work 4" loading="lazy">
-				<div class="gallery-overlay">
-                        <span>Residential Complex</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ===== CONTACT SECTION ===== -->
-<section id="contact" class="section contact-section">
-    <div class="container">
-        <div class="section-header" data-animate="fade-up">
-            <span class="section-tag">Reach Us</span>
-            <h2 class="section-title">Get In <span class="gold">Touch</span></h2>
-            <div class="section-line"></div>
-        </div>
-
-        <div class="contact-grid">
-            <div class="contact-info" data-animate="fade-right">
-                <h3>Let's Build Together</h3>
-                <p>Whether you need turnkey execution for a commercial project, premium interior fit-out, or complete MEP solutions – we're ready to deliver.</p>
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <div class="contact-icon"><i class="fas fa-user"></i></div>
-                        <div>
-                            <strong>Karthik Reddy J</strong>
-                            <span>Founder &amp; Managing Partner</span>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
-                        <div>
-                            <strong>Phone</strong>
-                            <span>+91-9108221234</span>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-						<div>
-                            <strong>Email</strong>
-                            <span>niranyadevelopersllp@gmail.com</span>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
-                        <div>
-                            <strong>Location</strong>
-                            <span>Bangalore, Karnataka, India</span>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon"><i class="fas fa-globe"></i></div>
-                        <div>
-                            <strong>Website</strong>
-                            <span>www.niranyadevelopers.com</span>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-globe"></i></div>
+                            <div>
+                                <strong>Website</strong>
+                                <span>www.niranyadevelopers.com</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="contact-form-wrapper" data-animate="fade-left">
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" placeholder="Your Name" required>
-                        <label for="name">Your Name</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" placeholder="Your Email" required>
-                        <label for="email">Your Email</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" placeholder="Subject">
-                        <label for="subject">Subject</label>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
-                        <label for="message">Your Message</label>
-                    <div class="form-actions">
+                <div class="contact-form-wrapper" data-animate="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
                         <button type="submit" class="btn btn-gold btn-full">
                             <i class="fas fa-paper-plane"></i> Send Message
                         </button>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- ===== FOOTER ===== -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-top">
-            <div class="footer-brand">
-                <h3><span class="gold">NIRANYA</span> DEVELOPERS LLP</h3>
-                <p>Building Excellence. Delivering Trust.</p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3><span class="gold">NIRANYA</span> DEVELOPERS LLP</h3>
+                    <p>Building Excellence. Delivering Trust.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
             </div>
-            <div class="footer-links">
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Niranya Developers LLP. All Rights Reserved.</p>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Niranya Developers LLP. All Rights Reserved.</p>
-        </div>
-    </div>
-</footer>
+    </footer>
 
-<!-- Back to Top Button -->
-<button id="backToTop" class="back-to-top" aria-label="Back to top">
-    <i class="fas fa-chevron-up"></i>
-</button>
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
 
-<!-- Lightbox Modal for Gallery -->
-<div id="lightbox" class="lightbox">
-<div class="lightbox">
+    <div id="lightbox" class="lightbox">
         <button class="lightbox-close" aria-label="Close">&times;</button>
         <button class="lightbox-prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
         <button class="lightbox-next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
         <img id="lightboxImg" src="" alt="Gallery Image">
     </div>
 
-    <!-- JavaScript -->
     <script src="js/script.js"></script>
 </body>
 </html>
-    </div>
-</section>
