@@ -1087,6 +1087,10 @@ ul {
     transition: var(--transition);
 }
 
+.project-card.hidden {
+    display: none;
+}
+
 .project-card:hover {
     transform: translateY(-6px);
     border-color: var(--gold-accent-border);
